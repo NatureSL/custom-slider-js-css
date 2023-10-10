@@ -1,0 +1,85 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  background: #c1bdba;
+  font-family: "Titillium Web", sans-serif;
+}
+.tab a {
+    text-decoration: none;
+    background: #522764;
+    transition: 0.5s ease;
+  }
+  .tab a:hover {
+    background: #522764;
+  }
+
+  /* #fbbf24  org*/
+  .products-tabs-sliders {
+    /* background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%); */
+    background-color: #faaca8;
+    background-image: linear-gradient(19deg, #faaca8 0%, #ddd6f3 100%);
+
+    padding: 40px;
+    max-width: 860px;
+    margin: 40px auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+  }
+
+  .tab-group {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto 40px;
+    max-width: 423px;
+  }
+  .tab-group:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .tab-group li a {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #8e44ad;
+    color: #d9dfde;
+    font-size: 20px;
+    float: left;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+  .tab-group li a:hover {
+    background: #522764;
+    color: #ffffff;
+  }
+  .tab-group .active a {
+    background: #522764;
+
+    color: #ffffff;
+  }
+
+  .tab-content > div:last-child {
+    display: none;
+  }
+.slick-slider div{
+display: flex;
+flex-direcrtion: column;
+}
+.featured-collection-slider{
+max-width: 1200px;
+margin: 0 auto;
+}
+.products-tabs-sliders{
+max-width: 1200px;
+margin: 0 auto;
+}
